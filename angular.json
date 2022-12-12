@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-angular-progress-bar": {
+    "ngx-progress-bar-iw": {
       "projectType": "library",
-      "root": "projects/ngx-angular-progress-bar",
-      "sourceRoot": "projects/ngx-angular-progress-bar/src",
+      "root": "projects/ngx-progress-bar-iw",
+      "sourceRoot": "projects/ngx-progress-bar-iw/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-angular-progress-bar/ng-package.json"
+            "project": "projects/ngx-progress-bar-iw/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-angular-progress-bar/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-progress-bar-iw/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-angular-progress-bar/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-progress-bar-iw/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/ngx-angular-progress-bar/tsconfig.spec.json",
+            "tsConfig": "projects/ngx-progress-bar-iw/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

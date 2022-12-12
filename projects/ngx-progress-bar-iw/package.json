@@ -1,5 +1,5 @@
 {
-  "name": "ngx-angular-progress-bar",
+  "name": "ngx-progress-bar-iw",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.0.0",

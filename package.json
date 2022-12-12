@@ -1,6 +1,6 @@
 {
-  "name": "ngx-angular-progress-bar",
-  "version": "1.0.3",
+  "name": "ngx-progress-bar-iw",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
